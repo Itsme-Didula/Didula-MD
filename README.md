@@ -55,10 +55,10 @@
 
 
    
+## If didn't working heroku rename readme md
 
 
-
-<a href="https://heroku.com/deploy">
+<a href="https://dashboard.heroku.com/new-app?button-url=https://github.com/Itsme-Didula/Didula-MD">
     <img src="https://www.herokucdn.com/deploy/button.png" width="160px" alt="Deploy on Heroku" >
     </a>
 
