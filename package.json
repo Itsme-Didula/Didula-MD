@@ -1,5 +1,5 @@
 {
-    "name": "Maria-Bot",
+    "name": "𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃",
     "version": "1.0.0",
     "description": "WhatsApp Bot Using Nodejs",
     "main": "index.js",
@@ -14,7 +14,7 @@
     "scripts": {
         "start": "node index.js"
     },
-    "author": "Ayush",
+    "author": "Didula",
     "license": "MIT",
     "dependencies": {
         "@whiskeysockets/baileys": "latest",

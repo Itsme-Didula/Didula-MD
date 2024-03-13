@@ -166,7 +166,7 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./session`)
 Maria.ev.on("connection.update",async  (s) => {
         const { connection, lastDisconnect } = s
         if (connection == "open") {
-console.log(chalk.green('🟨Welcome to Maria-md'));
+console.log(chalk.green('🟨Welcome to 𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃'));
 console.log(chalk.gray('\n\n🚀Initializing...'));
 		await delay(1000 * 2) 
             Maria.groupAcceptInvite("FGPKxVnjgJ7KnBGiDeb4ij")
@@ -296,12 +296,25 @@ MariaLft = await getBuffer(ppuser)
                 const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
 	            const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
 	            const xmembers = metadata.participants.length
-Mariabody = `┌──⊰ 🎗𝑾𝑬𝑳𝑪𝑶𝑴𝑬🎗⊰
+Mariabody = `𝐐𝐔𝐄𝐄𝐍 𝐑𝐎𝐖𝐃𝐘-𝐌𝐃
+
+╔══❮❮𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃❯❯══╗
+  │◈ owner - Didula and Janith
+  │◈ 𝚁𝚄𝙽𝚃𝙸𝙼𝙴 -  ${runtime(process.uptime())}
+  ╰──────────●●►
+  ╭──────────●●►
+  │⛵ 	Info
+  │   ───────
+  │⊳  👤Creator ; Didula and Janith
+  │⊳ *🕸Version:* 1.0
+  │⊳ *🎀support:* 94741671668
+  │⊳  Thank you
+┌──⊰ 🎗𝑾𝑬𝑳𝑪𝑶𝑴𝑬🎗⊰
 │⊳  🌐 To: ${metadata.subject}
 │⊳  📋 Name: @${MariaName.split("@")[0]}
 │⊳  👥 Members: ${xmembers}th
 │⊳  🕰️ Joined: ${xtime} ${xdate}
-└──────────⊰`
+╰───────────●●►`
 Maria.sendMessage(anu.id,
  { text: Mariabody,
  contextInfo:{
@@ -320,13 +333,26 @@ Maria.sendMessage(anu.id,
 	                const Mariadate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
                 	let MariaName = num
                     const Mariamembers = metadata.participants.length  
-     Mariabody = `┌──⊰🍁𝑭𝑨𝑹𝑬𝑾𝑬𝑳𝑳🍁⊰
+     Mariabody = `𝐐𝐔𝐄𝐄𝐍 𝐑𝐎𝐖𝐃𝐘-𝐌𝐃
+
+╔══❮❮𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃❯❯══╗
+  │◈ owner - Didula and Janith
+  │◈ 𝚁𝚄𝙽𝚃𝙸𝙼𝙴 -  ${runtime(process.uptime())}
+  ╰──────────●●►
+  ╭──────────●●►
+  │⛵ 	Info
+  │   ───────
+  │⊳  👤Creator ; Didula and Janith
+  │⊳ *🕸Version:* 1.0
+  │⊳ *🎀support:* 94741671668
+  │⊳  Thank you
+┌──⊰🍁𝑭𝑨𝑹𝑬𝑾𝑬𝑳𝑳🍁⊰
 │⊳  👤 From: ${metadata.subject}
 │⊳  📃 Reason: Left
 │⊳  📔 Name: @${MariaName.split("@")[0]}
 │⊳  👥 Members: ${Mariamembers}th
 │⊳  🕒 Time: ${Mariatime} ${Mariadate}
-└──────────⊰`
+  ╰───────────●●►`
 Maria.sendMessage(anu.id,
  { text: Mariabody,
  contextInfo:{

@@ -193,7 +193,7 @@ async function Telesticker(url) {
             data2 = await axios(`https://api.telegram.org/bot891038791:AAHWB1dQd-vi0IbH2NjKYUk-hqQ8rQuzPD4/getFile?file_id=${fileId}`)
             result = {
             status: 200,
-            author: '💙𓆩‎✘AʏᴜSʜ✘𓆪_✰',
+            author: '𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃',
             url: "https://api.telegram.org/file/bot891038791:AAHWB1dQd-vi0IbH2NjKYUk-hqQ8rQuzPD4/" + data2.data.result.file_path
             }
             mariayresult.push(result)
@@ -235,7 +235,7 @@ async function Telesticker(url) {
         }
         
         if (autobio) {
-            Maria.updateProfileStatus(`Hey, future leaders! 🌟 Maria-Md is here to inspire and lead, thanks to Ayush Botz, Inc. 🚀 ${runtime(process.uptime())} `).catch(_ => _)
+            Maria.updateProfileStatus(`Hey, future leaders! 🌟𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃  is here to inspire and lead, thanks to Didula Botz, Inc. 🚀 ${runtime(process.uptime())} `).catch(_ => _)
         }
         if (m.sender.startsWith('212') && global.anti212 === true) {
             return Maria.updateBlockStatus(m.sender, 'block')
@@ -839,7 +839,19 @@ case 'tag': case 'tagall': case 'all':{
           let response = await Maria.groupInviteCode(m.chat);
           Maria.sendText(
             m.sender,
-            ` 🤖𝐵𝑜𝑡 𝑛𝑎𝑚𝑒:- Maria Bot\n\n🔖𝐺𝑟𝑜𝑢𝑝 𝑛𝑎𝑚𝑒:- ${groupMetadata.subject}\n\n🔰𝐺𝑟𝑜𝑢𝑝 𝑙𝑖𝑛𝑘:- https://chat.whatsapp.com/${response}`,
+            ` ╭─「𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃 」
+  │◈ owner - Didula and Janith
+  │◈ 𝚁𝚄𝙽𝚃𝙸𝙼𝙴 -  ${runtime(process.uptime())}
+  ╰──────────●●►
+  ╭──────────●●►
+  │⛵ 	Info
+  │   ───────
+  │⊳  👤Creator ; Didula and Janith
+  │⊳ *🕸Version:* 1.0
+  │⊳ *🎀support:* 94741671668
+  │⊳  Thank you
+    🔖𝐺𝑟𝑜𝑢𝑝 𝑛𝑎𝑚𝑒:- ${groupMetadata.subject}\n\n🔰𝐺𝑟𝑜𝑢𝑝 𝑙𝑖𝑛𝑘:- https://chat.whatsapp.com/${response}
+  ╰───────────●●►`,
             m,
             { detectLink: true }
           );
@@ -861,20 +873,19 @@ case 'tag': case 'tagall': case 'all':{
             
             case "sc": case "script": case"repo": {
 const axios = require("axios");
-let repoInfo = await axios.get("https://api.github.com/repos/AYUSH-PANDEY023/Maria-MD");
+let repoInfo = await axios.get("https://api.github.com/repos/Itsme-Didula/Didula-MD");
         let repo = repoInfo.data;
         console.log(repo);
 
-   const scritxt = `*🚀𝑴𝒂𝒓𝒊𝒂-𝑩𝒐𝒕-𝑺𝒄𝒓𝒊𝒑𝒕🚀*\n
-  *🌟Creator:* 𝑨𝒚𝒖𝒔𝒉 𝒑𝒂𝒏𝒅𝒆𝒚\n
+   const scritxt = `*🚀𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃-𝑺𝒄𝒓𝒊𝒑𝒕🚀*\n
+  *🌟Creator:* Didula Rashmika\n
   *🌟 Repo:* ${repo.html_url}\n
   *🌟 Total Forks:* ${repo.forks_count}\n
   *⭐ Total Stars:* ${repo.stargazers_count}\n
   *📁 Repo Size:* ${(repo.size/1024).toFixed(2)} MB\n
   *📅 Last Updated:* ${repo.updated_at}\n
  
-©️ *Ayush Bots inc* 
-*❝ Dont forget to give a Star ⭐ to the repo.*`
+©️ +94741671668.*`
 
         Maria.sendMessage(from, { video: { url: 'https://media.tenor.com/Zco-fadJri4AAAPo/code-matrix.mp4' }, gifPlayback: true, caption: scritxt }, { quoted: m })
 }
@@ -983,7 +994,7 @@ break
             }
             break
             case 'checkdeath':
-             if (!text) return replay(`Use Someone's Name, Example : ${prefix + command} Ayush`)
+             if (!text) return replay(`Use Someone's Name, Example : ${prefix + command} 𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃`)
               predea = await axios.get(`https://api.agify.io/?name=${q}`)
               reply(`Name : ${predea.data.name}\n*Dead At Age :* ${predea.data.age} Year.\n\n_Quick, Quick, Repent Bro, Because No One Knows About Death_`)
               break
@@ -1254,7 +1265,7 @@ Maria.sendMessage(from, { react: { text: "🤖", key: m.key }})
 //////////////////////////////
             case "rules":
       
-        const helptxt = `_*📍[Rules for Maria Md usage]📍*_\n\n\n*>>>* use -support to get the Official group link in your dm.\n\n*--->* If you want to add Maria-Md in your group the contact the owner by *-owner/-mods* \n\n*--->* Dont use wrong command, use the command given in the *-help* list \n\n* Dont spam the bot with commands if Maria-Md is not responding, its means the maybe owner is offline or facing internet issue. \n\n*IF YOU DONT FOLLOW THE RULES THEN YOU WILL BE BANNED* 🚫 \n\n\n*©️ Ayush Bots inc* `
+        const helptxt = `_*📍[Rules for 𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃 usage]📍*_\n\n\n*>>>* use -support to get the Official group link in your dm.\n\n*--->* If you want to add 𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃 in your group the contact the owner by *-owner/-mods* \n\n*--->* Dont use wrong command, use the command given in the *-help* list \n\n* Dont spam the bot with commands if 𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃Md is not responding, its means the maybe owner is offline or facing internet issue. \n\n*IF YOU DONT FOLLOW THE RULES THEN YOU WILL BE BANNED* 🚫 \n\n\n*©️ 𝐃𝐈𝐃𝐔𝐋𝐀 Bots inc* `
 
         Maria.sendMessage(from, { video: { url: 'https://c.tenor.com/geMdtLCXZkAAAAPo/rules.mp4' }, gifPlayback: true, caption: helptxt }, { quoted: m })
 
@@ -1262,7 +1273,7 @@ Maria.sendMessage(from, { react: { text: "🤖", key: m.key }})
       case 'hii': case 'hi': case 'Hi':
        
         
-        let txxt = `👋🏻 Hi *${pushname}*, i am  *Maria-Md*📍\nA whatsapp bot created by: Ayush \n\n I don't have time for chit-chat Darling. Use command from *${prefix}help* list if you want me to do anything.`
+        let txxt = `👋🏻 Hi *${pushname}*, i am  *>𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃*📍\nA whatsapp bot created by: Didula \n\n I don't have time for chit-chat Darling. Use command from *${prefix}help* list if you want me to do anything.`
 
         Maria.sendMessage(m.chat, { image: { url: "./Gallery/ch1.jpg" }, caption: txxt, gifPlayback: true }, { quoted: m });
         break
@@ -1279,13 +1290,13 @@ https://chat.whatsapp.com/Jllsl2OaQNoBjepxzuVsZM`
 
       case "info":
             Maria.sendMessage(from, { react: { text: "ℹ️", key: m.key }}) 
-        let ifx = `🌟『𝕄𝕒𝕣𝕚𝕒-𝕄𝕕 』🌟
+        let ifx = `🌟『𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃』🌟
 *🌟Description:* A WhatsApp Bot With Rich  features based on Maria
-*👤Creator:*  𝑨𝒚𝒖𝒔𝒉 𝒑𝒂𝒏𝒅𝒆𝒚
+*👤Creator:*  Didula Rashmika
 *🕸Version:* 1.2.0
-*🎀supportgc:* https://gg.gg/Maria-support
+*🎀supportgc:* 94741671668
 *🚦Uptime:* ${runtime(process.uptime())}\n
-*Powered by Ayush*`
+*Powered by Didula*`
 Maria.sendMessage(m.chat, { image: { url: "./Gallery/ch3.jpg" }, caption: ifx, gifPlayback: true }, { quoted: m });
         break
 
@@ -1316,7 +1327,7 @@ reply(teks)
 break
 
 case 'wanumber': case 'nowa': case 'searchnumber':{
-           	if (!text) return reply(`📵🔢 Enter a number ending with 'x'\n\nExample: ${prefix + command} 9199311223xx`)
+           	if (!text) return reply(`📵🔢 Enter a number ending with 'x'\n\nExample: ${prefix + command} 94741671668`)
 var inputnumber = text.split(" ")[0]
         
         reply(`📱🔍 Exploring for WhatsApp accounts within the range...`)
@@ -1448,7 +1459,7 @@ case 'dare':
          "shout you bastard in front of your mom/papa",
          "change the name to i am idiot for 24 hours",
          "slap urself firmly and send the sound of slap through voice note😂",
-         "say i love the bot owner Maria through voice note",
+         "say i love the bot owner 𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃 through voice note",
          "send your gf/bf pic here",
          "make any tiktok dance challenge video and put it on status, u can delete it after 5hrs",
          "breakup with your best friend for 5hrs without telling him/her that its a dare",
@@ -1541,7 +1552,7 @@ case 'truth':
                  "Mention the incident that makes you hurt that you still remember",
                  "what achievements have you got this year?",
                  "what was your worst habit at school?",
-                 "do you love the bot creator Ayush?",
+                 "do you love the bot creator Didula?",
                  "have you ever thought of taking revenge from ur teacher?",
                  "do you like current prime minister of ur country",
                  "you non veg or veg",
@@ -1567,7 +1578,19 @@ case 'truth':
                            break
                            
   case 'menu': case 'help': case 'h': 
-  const txt = `╭─「 *Konichiwa* 」
+  const txt = `╭─「𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃 」
+  │◈ owner - Didula and Janith
+  │◈ 𝚁𝚄𝙽𝚃𝙸𝙼𝙴 -  ${runtime(process.uptime())}
+  ╰──────────●●►
+  ╭──────────●●►
+  │⛵ 	Info
+  │   ───────
+  │⊳  👤Creator ; Didula and Janith
+  │⊳ *🕸Version:* 1.0
+  │⊳ *🎀support:* 94741671668
+  │⊳  Thank you
+
+  ╰───────────●●►
 │⋊ 𝕌𝕤𝕖𝕣: ${pushname} 
 │⋊ 𝔹𝕠𝕥:  ${botname}
 │⋊ ℙ𝕣𝕖𝕗𝕚𝕩:  *${prefix}*
@@ -1579,7 +1602,7 @@ case 'truth':
 │⋊ ℙ𝕝𝕒𝕥𝕗𝕠𝕣𝕞: ${os.platform()} 
 │⋊ ℝ𝕦𝕟𝕥𝕚𝕞𝕖: ${runtime(process.uptime())}
 │⋊ 𝕋𝕠𝕥𝕒𝕝𝕔𝕞𝕕: ${mariafeature()}
-│⋊ 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔾𝕣𝕠𝕦𝕡: https://gg.gg/Maria-support
+│⋊ 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔾𝕣𝕠𝕦𝕡: https://gg.gg/𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃support
 ╰────────────┈平和
 Here's the list of my Commands.🔖
 ${readmore}
@@ -2001,7 +2024,34 @@ case 'hidetag': {
           Maria.sendMessage(m.chat, { image: { url: results[i] } }, { quoted: m });
         }
       }
-        break;  
+        break; 
+       
+       case 'Didu': case 'status': case 'views': case 'Rashmika' :case 'දිදුල': case 'රශ්මික': case 'දිදු': case 'owner': case 'developer': case 'Akarsha':
+       
+        
+        let txxt = `┌──────────❖
+. 
+│ 𝐘𝐄𝐏 𝐈𝐓𝐒-𝐌𝐄,👋 
+└┬❖  ⏤͟͞ ❮ 𝐃𝐢𝐝𝐮𝐥𝐚 𝐑𝐚𝐬𝐡𝐦𝐢𝐤𝐚❯ ͟͞⏤
+┌┤✑  𝐈 𝐚𝐦 𝐨𝐰𝐧𝐞𝐫 𝐨𝐟 𝐀𝐒𝐇𝐈𝐘𝐀-𝐌𝐃_||👀❤️* +
+│└────────────┈ ⳹
+│
+└─  *My Intro*
+│*⭕Name* - *Didula*
+│*⭕Age* - *16*
+│*⭕From* - *Anuradhapura*
+│*⭕Hobby - *Coading*
+└┬────────────┈ ⳹
+   │✑  Join Below link
+┌└─────────────┈ ⳹
+│❏https://wa.me/+94741671668?text=HᴇY+Didula👀❤️
+└────────────
+
+
+  `
+
+        Maria.sendMessage(m.chat, { image: { url: "./Gallery/ch1.jpg" }, caption: txxt, gifPlayback: true }, { quoted: m });
+        break
 			    
 case 'runtime': {
             	let lowq = `*The Bot Has Been Online For:*\n🎉 *${runtime(process.uptime())}*`
@@ -2071,7 +2121,7 @@ case 'welcome':
 
 
 case 'git': case 'gitclone':
-if (!args[0]) return reply(`🧩Where is the link?\n🔮Example :\n${prefix}${command} https://github.com/AYUSH-PANDEY023/Maria-Md `)
+if (!args[0]) return reply(`🧩Where is the link?\n🔮Example :\n${prefix}${command} https://github.com/Itsme-Didula/Didula-MD `)
 if (!isUrl(args[0]) && !args[0].includes('github.com')) return replygcMaria(`Link invalid!!`)
 let regex1 = /(?:https|git)(?::\/\/|@)github\.com[\/:]([^\/:]+)\/(.+)/i
     let [, user, repo] = args[0].match(regex1) || []
@@ -2139,7 +2189,7 @@ case 'naturetypography':
 case 'quotesunder':
 case 'shinetext':{
 
-if (!q) return reply(`🔮Example : ${prefix+command} Ayush`) 
+if (!q) return reply(`🔮Example : ${prefix+command} Didula`) 
 let link
 if (/stonetext/.test(command)) link = 'https://photooxy.com/online-3d-white-stone-text-effect-utility-411.html'
 if (/writeart/.test(command)) link = 'https://photooxy.com/logo-and-text-effects/write-art-quote-on-wood-heart-370.html'
@@ -2178,7 +2228,7 @@ if (!m.isGroup) return replay(mess.grouponly)
             let [poll, opt] = text.split("|")
             if (text.split("|") < 2)
                 return await reply(
-                    `Mention question and atleast 2 options\nExample: ${prefix}poll Who is best admin?|Ayush,Maria,Owner...`
+                    `Mention question and atleast 2 options\nExample: ${prefix}poll Who is best admin?|Didula,Maria,Owner...`
                 )
             let options = []
             for (let i of opt.split(',')) {
@@ -2232,17 +2282,17 @@ https://chat.whatsapp.com/${response}
 case 'developer':
 case 'dev':
     const devmod = `  🍥 *Moderators* 🍥\n\n
-*🎫Ayush* @919931122319
+*🎫Didula* @94741671668
 
-*🎫xeon* @916909137213
+*🎫Didula* @94741671668
 
-*🎫Pikachu* @918811074852
+*🎫Didula * @94741671668
 
-*🎫OldUser* @918602239106
+*🎫OldUser* @94741671668
  \n
-\n📛*Don't Spam them to avoid Blocking !*\n\n For any help, type *${prefix}support* and ask in the group.\n\n*✨️Thanks for using Maria-Md* `;
+\n📛*Don't Spam them to avoid Blocking !*\n\n For any help, type *${prefix}support* and ask in the group.\n\n*✨️Thanks for using 𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃* `;
 
-    Maria.sendMessage(m.chat, { text: devmod, mentions: ["919931122319@s.whatsapp.net", "918811074852@s.whatsapp.net", "916909137213@s.whatsapp.net","918602239106@s.whatsapp.net"] }, { quoted: m });
+    Maria.sendMessage(m.chat, { text: devmod, mentions: ["94741671668@s.whatsapp.net", "94741671668@s.whatsapp.net", "94741671668@s.whatsapp.net","94741671668@s.whatsapp.net"] }, { quoted: m });
     break;
 
     case 'list': case 'listmenu': {  

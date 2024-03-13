@@ -2,43 +2,43 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 //contact details
-global.ownernumber = ['919931122319']
-global.ownername = "💙𓆩‎✘AʏᴜSʜ✘𓆪_✰"//owner name
-global.ytname = "YT: AyushBotz.inc"
-global.socialm = "GitHub: Ayushpandey023"
-global.location = "Indian"
+global.ownernumber = ['94741671668']
+global.ownername = "𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃_✰"//owner name
+global.ytname = "𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃"
+global.socialm = "𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃"
+global.location = "Sri lanka"
 
-global.botname = '𝐌𝐀𝐑𝐈𝐀-𝐌𝐃' //name of the bot
+global.botname = '𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃' //name of the bot
 
 //sticker details
-global.stickername = '💙𓆩‎✘AʏᴜSʜ✘𓆪_✰'
+global.stickername = '𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃'
 global.packname = 'Sticker By'
-global.author = 'Maria Bot'
+global.author = '𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃'
 //console view/theme
 global.themeemoji = '🧩'
-global.wm = "Ayush botz inc."
+global.wm = "𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃."
 
 //theme link
-global.link = 'https://whatsapp.com/channel/0029VaImo5ZG3R3qjKOdyr1I'
+global.link = 'https://whatsapp.com/channel/0029VaPozTkJpe8g48ocXS1Z'
 
 //custom prefix
 global.prefa = ['.']
 
 //false=disable and true=enable
-global.welcome = false //auto welcome
-global.autoRecording = false //auto recording
-global.autoTyping = false //auto typing
-global.autorecordtype = false //auto typing + recording
-global.autoread = false //auto read messages
-global.autobio = false //auto update bio
-global.anti212 = true //auto block +212
-global.autoread_status = false //auto view status/story
+global.welcome = true //auto welcome
+global.autoRecording = true //auto recording
+global.autoTyping = true //auto typing
+global.autorecordtype = true //auto typing + recording
+global.autoread = true //auto read messages
+global.autobio = true //auto update bio
+global.anti212 = false //auto block +212
+global.autoread_status = true //auto view status/story
 
 
 
 //reply messages
 global.mess = {
-    done: '*here you go!* \n\n*🎀 Maria Bot 🎀*\n\n*🧩 Bot link:* \nhttps://github.com/AYUSH-PANDEY023/Maria-MD\n',
+    done: '*𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃 Conected✅️*',
     prem: '*This feature can be used by premium user only*',
     admin: '*This feature can be used by admin only*',
     botAdmin: '*This feature can only be used when the bot is a group admin* ',
