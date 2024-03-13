@@ -58,7 +58,7 @@
 
 
 
-<a href="https://dashboard.heroku.com/new-app?button-url=https://github.com/Itsme-Didula/Didula-MD">
+<a href="https://dashboard.heroku.com/new?button-url=https://github.com/Itsme-Didula/Didula-MD&template=https://github.com/Itsme-Didula/Didula-MD.git">
     <img src="https://www.herokucdn.com/deploy/button.png" width="160px" alt="Deploy on Heroku" >
     </a>
 
