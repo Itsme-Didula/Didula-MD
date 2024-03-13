@@ -55,7 +55,7 @@
 
 
    
-## If didn't working heroku rename readme md
+
 
 
 <a href="https://dashboard.heroku.com/new-app?button-url=https://github.com/Itsme-Didula/Didula-MD">
