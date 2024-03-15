@@ -55,10 +55,10 @@
 
 
    
+## Frist subscribe Echo plan in Heroku
 
 
-
-<a href="https://heroku.com/deploy">
+<a href="https://dashboard.heroku.com/new?button-url=https://github.com/Itsme-Didula/Didula-MD&template=https://github.com/Itsme-Didula/Didula-MD.git">
     <img src="https://www.herokucdn.com/deploy/button.png" width="160px" alt="Deploy on Heroku" >
     </a>
 
@@ -127,7 +127,7 @@ pkg install imagemagick -y
 
 git clone https://github.com/Itsme-Didula/Didula-MD
 
-cd Didula-Md
+cd Didula-MD
 
 rm -rf session
 
