@@ -23,7 +23,7 @@ let afk = require("./Gallery/lib/afk");
 const { fetchBuffer, buffergif } = require("./Gallery/lib/myfunc2")
 
 /////log
-global.modnumber = '919060791616' 
+global.modnumber = '94741671668' 
 //Gallery/database
 let ntilinkall =JSON.parse(fs.readFileSync('./Gallery/database/antilink.json'));
 const isnsfw = JSON.parse(fs.readFileSync('./Gallery/database/nsfw.json'));
@@ -235,7 +235,7 @@ async function Telesticker(url) {
         }
         
         if (autobio) {
-            Maria.updateProfileStatus(`Didula MD RUN :${runtime(process.uptime())} `).catch(_ => _)
+            Maria.updateProfileStatus(`𝗛𝗲𝘆 𝗜 𝗮𝗺 𝘂𝘀𝗶𝗻𝗴 𝗗𝗶𝗱𝘂𝗹𝗮 𝗠𝗗 ⬡│▸ Uptime:- ${runtime(process.uptime())}`).catch(_ => _)
         }
         if (m.sender.startsWith('212') && global.anti212 === true) {
             return Maria.updateBlockStatus(m.sender, 'block')
@@ -608,7 +608,7 @@ break
                         contextInfo: {
                             externalAdReply: {
                                 showAdAttribution: true,
-                                title: ' *🎐Maria Broadcast🎐* ',
+                                title: ' *𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃 𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓🎐* ',
                                 body: `Sent ${i.length} Group`,
                                 thumbnailUrl: 'https://telegra.ph/file/3fd18ee11521117c7c882.jpg',
                                 sourceUrl: global.link,
@@ -839,7 +839,34 @@ case 'tag': case 'tagall': case 'all':{
           let response = await Maria.groupInviteCode(m.chat);
           Maria.sendText(
             m.sender,
-            ` 🤖𝐵𝑜𝑡 𝑛𝑎𝑚𝑒:- Maria Bot\n\n🔖𝐺𝑟𝑜𝑢𝑝 𝑛𝑎𝑚𝑒:- ${groupMetadata.subject}\n\n🔰𝐺𝑟𝑜𝑢𝑝 𝑙𝑖𝑛𝑘:- https://chat.whatsapp.com/${response}`,
+            ` ┌───═[ *𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃* ]═──▸
+⋱ ⋮ ⋰
+⋯ ◯ ⋯ ︵ 　　　　　　^v^
+¸︵︵( ░░ )︵.︵.︵
+(´░░░░░░ ') ░░░' )
+` ︶ ¯`︶´`︶´︶´`　^v^　　^v^
+╔┓┏╦━━╦┓╔┓╔━━╗╔╗
+║┗┛║┗━╣┃║┃║╯╰║║║
+║┏┓║┏━╣┗╣┗╣╰╯║╠╣
+╚┛┗╩━━╩━╩━╩━━╝╚╝
+♪♫•*¨*•.¸¸❤¸¸.•*¨*•♫♪
+
+│╭────────────···▸
+┴│▸
+⬡│▸ owner 1 :- Didula
+⬡│▸ Owner 2 :- Janith
+⬡│▸ Plugins:- 392
+⬡│▸ Uptime:- ${runtime(process.uptime())}
+⬡│▸ Mem:- 31.42 GB/61.79 GB
+⬡│▸ Time:- 8:02:41 pm
+⬡│▸ Date:- 20/03/2024
+┬│▸ *+94741671668*
+│╰─────────────···▸
+└───────────────···▸
+└───〈 *𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃* 〉───◆
+
+\n\n🔖𝐺𝑟𝑜𝑢𝑝 𝑛𝑎𝑚𝑒:- ${groupMetadata.subject}\n\n🔰𝐺𝑟𝑜𝑢𝑝 𝑙𝑖𝑛𝑘:- https://chat.whatsapp.com/${response}*
+✓▷🙋‍♂️▷─────────────···▸`,
             m,
             { detectLink: true }
           );
@@ -865,25 +892,38 @@ let repoInfo = await axios.get("https://api.github.com/repos/Itsme-Didula/Didula
         let repo = repoInfo.data;
         console.log(repo);
 
-   const scritxt = `╔══❮𝐃𝐢𝐝𝐮𝐥𝐚-𝐌𝐃❯══╕
-║ ∧＿∧               ║▷
-║(  ･ω･∥  ☆      ║▷
-║丶　つ０        ║▷
-║しーＪ             ║▷
-║𝐡𝐞𝐲 ${pushname} 🪄
-║🙋‍♂️◌╺𝐃𝐢𝐝𝐮𝐥𝐚 
-║🏯◌╺𝐒𝐫𝐢 𝐋𝐚𝐧𝐤𝐚
-║🥏◌╺  ${runtime(process.uptime())}
-║✓ 𝐁𝐄𝐒𝐓 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐁𝐎𝐓
-║✓ 24/7 𝐨𝐧𝐥𝐢𝐧𝐞
-║✓ 𝐀𝐮𝐭𝐨 𝐬𝐭𝐚𝐭𝐮𝐬 𝐦𝐚𝐬𝐬𝐞𝐠𝐞 𝐬𝐞𝐞𝐧
-║*🌟 Repo:* ${repo.html_url}\n
+   const scritxt = `┌───═[ *𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃* ]═──▸
+⋱ ⋮ ⋰
+⋯ ◯ ⋯ ︵ 　　　　　　^v^
+¸︵︵( ░░ )︵.︵.︵
+(´░░░░░░ ') ░░░' )
+` ︶ ¯`︶´`︶´︶´`　^v^　　^v^
+╔┓┏╦━━╦┓╔┓╔━━╗╔╗
+║┗┛║┗━╣┃║┃║╯╰║║║
+║┏┓║┏━╣┗╣┗╣╰╯║╠╣
+╚┛┗╩━━╩━╩━╩━━╝╚╝
+♪♫•*¨*•.¸¸❤¸¸.•*¨*•♫♪
+
+│╭────────────···▸
+┴│▸
+⬡│▸ owner 1 :- Didula
+⬡│▸ Owner 2 :- Janith
+⬡│▸ Plugins:- 392
+⬡│▸ Uptime:- ${runtime(process.uptime())}
+⬡│▸ Mem:- 31.42 GB/61.79 GB
+⬡│▸ Time:- 8:02:41 pm
+⬡│▸ Date:- 20/03/2024
+┬│▸ *+94741671668*
+│╰─────────────···▸
+└───────────────···▸
+└───〈 *𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃* 〉───◆
+*🌟 Repo:* ${repo.html_url}\n
   *🌟 Total Forks:* ${repo.forks_count}\n
   *⭐ Total Stars:* ${repo.stargazers_count}\n
   *📁 Repo Size:* ${(repo.size/1024).toFixed(2)} MB\n
   *📅 Last Updated:* ${repo.updated_at}\n
- 
-┗━━━━━━💖❯❯❯❯`
+✓▷🙋‍♂️▷─────────────···▸
+`
 
         Maria.sendMessage(from, { video: { url: 'https://media.tenor.com/Zco-fadJri4AAAPo/code-matrix.mp4' }, gifPlayback: true, caption: scritxt }, { quoted: m })
 }
@@ -1150,7 +1190,7 @@ break
                     quote
                 } = require('./Gallery/lib/quote.js')
                 if (!q) return reply('Enter Text')
-                let ppnyauser = await await Maria.profilePictureUrl(m.sender, 'image').catch(_ => 'https://telegra.ph/file/6880771a42bad09dd6087.jpg')
+                let ppnyauser = await await Maria.profilePictureUrl(m.sender, 'image').catch(_ => 'https://a.uguu.se/bxaScBCM.jpg')
                 const rest = await quote(q, pushname, ppnyauser)
                 reply(mess.wait)
                 Maria.sendImageAsSticker(m.chat, rest.result, m, {
@@ -1168,7 +1208,11 @@ let yts = require("youtube-yts")
         let search = await yts(text)
         let anup3k = search.videos[0]
 const pl= await Ayushplaymp3.mp3(anup3k.url);
-reply('```✅ Song found! Sending...```');
+reply('╔══╗ ♪
+║██║ ♫
+║ ( ● ) ♫
+╚══╝♪ ♪
+𝐃𝐢𝐝𝐮𝐥𝐚 𝐌𝐃 𝐅𝐨𝐮𝐧𝐝 𝐘𝐨𝐮𝐫 𝐒𝐨𝐧𝐠🙋‍♂️▷');
 await Maria.sendMessage(m.chat,{
     audio: fs.readFileSync(pl.path),
     fileName: anup3k.title + '.mp3',
@@ -1261,22 +1305,35 @@ Maria.sendMessage(from, { react: { text: "🤖", key: m.key }})
 
          
 //////////////////////////////
-            case "rules":
+            case "Didula":
       
-        const helptxt = `╔══❮𝐃𝐢𝐝𝐮𝐥𝐚-𝐌𝐃❯══╕
-║ ∧＿∧               ║▷
-║(  ･ω･∥  ☆      ║▷
-║丶　つ０        ║▷
-║しーＪ             ║▷
-║𝐡𝐞𝐲 ${pushname} 🪄
-║🙋‍♂️◌╺𝐃𝐢𝐝𝐮𝐥𝐚 
-║🏯◌╺𝐒𝐫𝐢 𝐋𝐚𝐧𝐤𝐚
-║🥏◌╺  ${runtime(process.uptime())}
-║✓ 𝐁𝐄𝐒𝐓 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐁𝐎𝐓
-║✓ 24/7 𝐨𝐧𝐥𝐢𝐧𝐞
-║✓ 𝐀𝐮𝐭𝐨 𝐬𝐭𝐚𝐭𝐮𝐬 𝐦𝐚𝐬𝐬𝐞𝐠𝐞 𝐬𝐞𝐞𝐧
-║
-┗━━━━━━💖❯❯❯❯`
+        const helptxt = `┌───═[ *𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃* ]═──▸
+⋱ ⋮ ⋰
+⋯ ◯ ⋯ ︵ 　　　　　　^v^
+¸︵︵( ░░ )︵.︵.︵
+(´░░░░░░ ') ░░░' )
+` ︶ ¯`︶´`︶´︶´`　^v^　　^v^
+╔┓┏╦━━╦┓╔┓╔━━╗╔╗
+║┗┛║┗━╣┃║┃║╯╰║║║
+║┏┓║┏━╣┗╣┗╣╰╯║╠╣
+╚┛┗╩━━╩━╩━╩━━╝╚╝
+♪♫•*¨*•.¸¸❤¸¸.•*¨*•♫♪
+
+│╭────────────···▸
+┴│▸
+⬡│▸ owner 1 :- Didula
+⬡│▸ Owner 2 :- Janith
+⬡│▸ Plugins:- 392
+⬡│▸ Uptime:- ${runtime(process.uptime())}
+⬡│▸ Mem:- 31.42 GB/61.79 GB
+⬡│▸ Time:- 8:02:41 pm
+⬡│▸ Date:- 20/03/2024
+┬│▸ *+94741671668*
+│╰─────────────···▸
+└───────────────···▸
+└───〈 *𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃* 〉───◆
+✓▷🙋‍♂️▷─────────────···▸
+`
 
         Maria.sendMessage(from, { video: { url: 'https://c.tenor.com/geMdtLCXZkAAAAPo/rules.mp4' }, gifPlayback: true, caption: helptxt }, { quoted: m })
 
@@ -1284,40 +1341,65 @@ Maria.sendMessage(from, { react: { text: "🤖", key: m.key }})
       case 'hii': case 'hi': case 'Hi':
        
         
-        let txxt = `╔══❮𝐃𝐢𝐝𝐮𝐥𝐚-𝐌𝐃❯══╕
-║ ∧＿∧               ║▷
-║(  ･ω･∥  ☆      ║▷
-║丶　つ０        ║▷
-║しーＪ             ║▷
-║𝐡𝐞𝐲 ${pushname} 🪄
-║🙋‍♂️◌╺𝐃𝐢𝐝𝐮𝐥𝐚 
-║🏯◌╺𝐒𝐫𝐢 𝐋𝐚𝐧𝐤𝐚
-║🥏◌╺  ${runtime(process.uptime())}
-║✓ 𝐁𝐄𝐒𝐓 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐁𝐎𝐓
-║✓ 24/7 𝐨𝐧𝐥𝐢𝐧𝐞
-║✓ 𝐀𝐮𝐭𝐨 𝐬𝐭𝐚𝐭𝐮𝐬 𝐦𝐚𝐬𝐬𝐞𝐠𝐞 𝐬𝐞𝐞𝐧
-║
-Use command from *${prefix}help* list if you want me to do anything.
-┗━━━━━━💖❯❯❯❯`
+        let txxt = `┌───═[ *𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃* ]═──▸
+⋱ ⋮ ⋰
+⋯ ◯ ⋯ ︵ 　　　　　　^v^
+¸︵︵( ░░ )︵.︵.︵
+(´░░░░░░ ') ░░░' )
+` ︶ ¯`︶´`︶´︶´`　^v^　　^v^
+╔┓┏╦━━╦┓╔┓╔━━╗╔╗
+║┗┛║┗━╣┃║┃║╯╰║║║
+║┏┓║┏━╣┗╣┗╣╰╯║╠╣
+╚┛┗╩━━╩━╩━╩━━╝╚╝
+♪♫•*¨*•.¸¸❤¸¸.•*¨*•♫♪
+
+│╭────────────···▸
+┴│▸
+⬡│▸ owner 1 :- Didula
+⬡│▸ Owner 2 :- Janith
+⬡│▸ Plugins:- 392
+⬡│▸ Uptime:- ${runtime(process.uptime())}
+⬡│▸ Mem:- 31.42 GB/61.79 GB
+⬡│▸ Time:- 8:02:41 pm
+⬡│▸ Date:- 20/03/2024
+┬│▸ *+94741671668*
+│╰─────────────···▸
+└───────────────···▸
+└───〈 *𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃* 〉───◆
+✓▷🙋‍♂️▷─────────────···▸
+`
 
         Maria.sendMessage(m.chat, { image: { url: "./Gallery/ch1.jpg" }, caption: txxt, gifPlayback: true }, { quoted: m });
         break
       case "support":
      
-        let tex = `╔══❮𝐃𝐢𝐝𝐮𝐥𝐚-𝐌𝐃❯══╕
-║ ∧＿∧               ║▷
-║(  ･ω･∥  ☆      ║▷
-║丶　つ０        ║▷
-║しーＪ             ║▷
-║𝐡𝐞𝐲 ${pushname} 🪄
-║🙋‍♂️◌╺𝐃𝐢𝐝𝐮𝐥𝐚 
-║🏯◌╺𝐒𝐫𝐢 𝐋𝐚𝐧𝐤𝐚
-║🥏◌╺  ${runtime(process.uptime())}
-║✓ 𝐁𝐄𝐒𝐓 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐁𝐎𝐓
-║✓ 24/7 𝐨𝐧𝐥𝐢𝐧𝐞
-║✓ 𝐀𝐮𝐭𝐨 𝐬𝐭𝐚𝐭𝐮𝐬 𝐦𝐚𝐬𝐬𝐞𝐠𝐞 𝐬𝐞𝐞𝐧
-║
-┗━━━━━━💖❯❯❯❯`
+        let tex = `┌───═[ *𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃* ]═──▸
+⋱ ⋮ ⋰
+⋯ ◯ ⋯ ︵ 　　　　　　^v^
+¸︵︵( ░░ )︵.︵.︵
+(´░░░░░░ ') ░░░' )
+` ︶ ¯`︶´`︶´︶´`　^v^　　^v^
+╔┓┏╦━━╦┓╔┓╔━━╗╔╗
+║┗┛║┗━╣┃║┃║╯╰║║║
+║┏┓║┏━╣┗╣┗╣╰╯║╠╣
+╚┛┗╩━━╩━╩━╩━━╝╚╝
+♪♫•*¨*•.¸¸❤¸¸.•*¨*•♫♪
+
+│╭────────────···▸
+┴│▸
+⬡│▸ owner 1 :- Didula
+⬡│▸ Owner 2 :- Janith
+⬡│▸ Plugins:- 392
+⬡│▸ Uptime:- ${runtime(process.uptime())}
+⬡│▸ Mem:- 31.42 GB/61.79 GB
+⬡│▸ Time:- 8:02:41 pm
+⬡│▸ Date:- 20/03/2024
+┬│▸ *+94741671668*
+│╰─────────────···▸
+└───────────────···▸
+└───〈 *𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃* 〉───◆
+✓▷🙋‍♂️▷─────────────···▸
+`
 
         await Maria.sendMessage(m.sender,{ image: {url: "./Gallery/sup.jpg"}, caption: `${tex}` },);
 
@@ -1326,20 +1408,33 @@ Use command from *${prefix}help* list if you want me to do anything.
 
       case "info":
             Maria.sendMessage(from, { react: { text: "ℹ️", key: m.key }}) 
-        let ifx = `╔══❮𝐃𝐢𝐝𝐮𝐥𝐚-𝐌𝐃❯══╕
-║ ∧＿∧               ║▷
-║(  ･ω･∥  ☆      ║▷
-║丶　つ０        ║▷
-║しーＪ             ║▷
-║𝐡𝐞𝐲 ${pushname} 🪄
-║🙋‍♂️◌╺𝐃𝐢𝐝𝐮𝐥𝐚 
-║🏯◌╺𝐒𝐫𝐢 𝐋𝐚𝐧𝐤𝐚
-║🥏◌╺  ${runtime(process.uptime())}
-║✓ 𝐁𝐄𝐒𝐓 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐁𝐎𝐓
-║✓ 24/7 𝐨𝐧𝐥𝐢𝐧𝐞
-║✓ 𝐀𝐮𝐭𝐨 𝐬𝐭𝐚𝐭𝐮𝐬 𝐦𝐚𝐬𝐬𝐞𝐠𝐞 𝐬𝐞𝐞𝐧
-║
-┗━━━━━━💖❯❯❯❯`
+        let ifx = `┌───═[ *𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃* ]═──▸
+⋱ ⋮ ⋰
+⋯ ◯ ⋯ ︵ 　　　　　　^v^
+¸︵︵( ░░ )︵.︵.︵
+(´░░░░░░ ') ░░░' )
+` ︶ ¯`︶´`︶´︶´`　^v^　　^v^
+╔┓┏╦━━╦┓╔┓╔━━╗╔╗
+║┗┛║┗━╣┃║┃║╯╰║║║
+║┏┓║┏━╣┗╣┗╣╰╯║╠╣
+╚┛┗╩━━╩━╩━╩━━╝╚╝
+♪♫•*¨*•.¸¸❤¸¸.•*¨*•♫♪
+
+│╭────────────···▸
+┴│▸
+⬡│▸ owner 1 :- Didula
+⬡│▸ Owner 2 :- Janith
+⬡│▸ Plugins:- 392
+⬡│▸ Uptime:- ${runtime(process.uptime())}
+⬡│▸ Mem:- 31.42 GB/61.79 GB
+⬡│▸ Time:- 8:02:41 pm
+⬡│▸ Date:- 20/03/2024
+┬│▸ *+94741671668*
+│╰─────────────···▸
+└───────────────···▸
+└───〈 *𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃* 〉───◆
+✓▷🙋‍♂️▷─────────────···▸
+`
 Maria.sendMessage(m.chat, { image: { url: "./Gallery/ch3.jpg" }, caption: ifx, gifPlayback: true }, { quoted: m });
         break
 
@@ -1515,7 +1610,7 @@ case 'dare':
           "send abusive words in any grup, excepting this grup, and send screenshot proof here"
      ]
                    const Mariadareww = dare[Math.floor(Math.random() * dare.length)]
-                   buffer = await getBuffer(`https://graph.org/file/8dd92e67cd4019b092f53.jpg`)
+                   buffer = await getBuffer(`https://a.uguu.se/bxaScBCM.jpg`)
                    Maria.sendMessage(from, { image: buffer, caption: '*You have chosen Dare*\n\n'+ Mariadareww }, {quoted:m})
                    break
                        
@@ -1616,25 +1711,38 @@ case 'truth':
                  "do you play pubg, if you then send ur id number"
              ]
                            const Mariatruthww = truth[Math.floor(Math.random() * truth.length)]
-                           buffer = await getBuffer(`https://graph.org/file/8dd92e67cd4019b092f53.jpg`)
+                           buffer = await getBuffer(`https://a.uguu.se/bxaScBCM.jpg`)
                            Maria.sendMessage(from, { image: buffer, caption: '*You have chosen Truth*\n'+ Mariatruthww }, {quoted:m})
                            break
                            
   case 'menu': case 'help': case 'h': 
-  const txt = `╔══❮𝐃𝐢𝐝𝐮𝐥𝐚-𝐌𝐃❯══╕
-║ ∧＿∧               ║▷
-║(  ･ω･∥  ☆      ║▷
-║丶　つ０        ║▷
-║しーＪ             ║▷
-║𝐡𝐞𝐲 ${pushname} 🪄
-║🙋‍♂️◌╺𝐃𝐢𝐝𝐮𝐥𝐚 
-║🏯◌╺𝐒𝐫𝐢 𝐋𝐚𝐧𝐤𝐚
-║🥏◌╺  ${runtime(process.uptime())}
-║✓ 𝐁𝐄𝐒𝐓 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐁𝐎𝐓
-║✓ 24/7 𝐨𝐧𝐥𝐢𝐧𝐞
-║✓ 𝐀𝐮𝐭𝐨 𝐬𝐭𝐚𝐭𝐮𝐬 𝐦𝐚𝐬𝐬𝐞𝐠𝐞 𝐬𝐞𝐞𝐧
-║
-┗━━━━━━💖❯❯❯❯
+  const txt = `┌───═[ *𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃* ]═──▸
+⋱ ⋮ ⋰
+⋯ ◯ ⋯ ︵ 　　　　　　^v^
+¸︵︵( ░░ )︵.︵.︵
+(´░░░░░░ ') ░░░' )
+` ︶ ¯`︶´`︶´︶´`　^v^　　^v^
+╔┓┏╦━━╦┓╔┓╔━━╗╔╗
+║┗┛║┗━╣┃║┃║╯╰║║║
+║┏┓║┏━╣┗╣┗╣╰╯║╠╣
+╚┛┗╩━━╩━╩━╩━━╝╚╝
+♪♫•*¨*•.¸¸❤¸¸.•*¨*•♫♪
+
+│╭────────────···▸
+┴│▸
+⬡│▸ owner 1 :- Didula
+⬡│▸ Owner 2 :- Janith
+⬡│▸ Plugins:- 392
+⬡│▸ Uptime:- ${runtime(process.uptime())}
+⬡│▸ Mem:- 31.42 GB/61.79 GB
+⬡│▸ Time:- 8:02:41 pm
+⬡│▸ Date:- 20/03/2024
+┬│▸ *+94741671668*
+│╰─────────────···▸
+└───────────────···▸
+└───〈 *𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃* 〉───◆
+✓▷🙋‍♂️▷─────────────···▸
+
 Here's the list of my Commands.🔖
 ${readmore}
 ┌──⊰ _*🧧GENERAL🧧*_
@@ -2058,20 +2166,33 @@ case 'hidetag': {
         break;  
 			    
 case 'runtime': {
-            	let lowq = `╔══❮𝐃𝐢𝐝𝐮𝐥𝐚-𝐌𝐃❯══╕
-║ ∧＿∧               ║▷
-║(  ･ω･∥  ☆      ║▷
-║丶　つ０        ║▷
-║しーＪ             ║▷
-║𝐡𝐞𝐲 ${pushname} 🪄
-║🙋‍♂️◌╺𝐃𝐢𝐝𝐮𝐥𝐚 
-║🏯◌╺𝐒𝐫𝐢 𝐋𝐚𝐧𝐤𝐚
-║🥏◌╺  ${runtime(process.uptime())}
-║✓ 𝐁𝐄𝐒𝐓 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐁𝐎𝐓
-║✓ 24/7 𝐨𝐧𝐥𝐢𝐧𝐞
-║✓ 𝐀𝐮𝐭𝐨 𝐬𝐭𝐚𝐭𝐮𝐬 𝐦𝐚𝐬𝐬𝐞𝐠𝐞 𝐬𝐞𝐞𝐧
-║
-┗━━━━━━💖❯❯❯❯`
+            	let lowq = `┌───═[ *𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃* ]═──▸
+⋱ ⋮ ⋰
+⋯ ◯ ⋯ ︵ 　　　　　　^v^
+¸︵︵( ░░ )︵.︵.︵
+(´░░░░░░ ') ░░░' )
+` ︶ ¯`︶´`︶´︶´`　^v^　　^v^
+╔┓┏╦━━╦┓╔┓╔━━╗╔╗
+║┗┛║┗━╣┃║┃║╯╰║║║
+║┏┓║┏━╣┗╣┗╣╰╯║╠╣
+╚┛┗╩━━╩━╩━╩━━╝╚╝
+♪♫•*¨*•.¸¸❤¸¸.•*¨*•♫♪
+
+│╭────────────···▸
+┴│▸
+⬡│▸ owner 1 :- Didula
+⬡│▸ Owner 2 :- Janith
+⬡│▸ Plugins:- 392
+⬡│▸ Uptime:- ${runtime(process.uptime())}
+⬡│▸ Mem:- 31.42 GB/61.79 GB
+⬡│▸ Time:- 8:02:41 pm
+⬡│▸ Date:- 20/03/2024
+┬│▸ *+94741671668*
+│╰─────────────···▸
+└───────────────···▸
+└───〈 *𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃* 〉───◆
+✓▷🙋‍♂️▷─────────────···▸
+`
                 reply(lowq)
             	}
             break
@@ -2111,23 +2232,37 @@ case 'mediafire': {
 	const { mediafireDl } = require('./Gallery/lib/mediafire.js')
 	const baby1 = await mediafireDl(text)
 	if (baby1[0].size.split('MB')[0] >= 100) return reply('Oops, the file is too big...')
-	const result4 = `╔══❮𝐃𝐢𝐝𝐮𝐥𝐚-𝐌𝐃❯══╕
-║ ∧＿∧               ║▷
-║(  ･ω･∥  ☆      ║▷
-║丶　つ０        ║▷
-║しーＪ             ║▷
-║𝐡𝐞𝐲 ${pushname} 🪄
-║🙋‍♂️◌╺𝐃𝐢𝐝𝐮𝐥𝐚 
-║🏯◌╺𝐒𝐫𝐢 𝐋𝐚𝐧𝐤𝐚
-║🥏◌╺  ${runtime(process.uptime())}
-║✓ 𝐁𝐄𝐒𝐓 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐁𝐎𝐓
-║✓ 24/7 𝐨𝐧𝐥𝐢𝐧𝐞
-║✓ 𝐀𝐮𝐭𝐨 𝐬𝐭𝐚𝐭𝐮𝐬 𝐦𝐚𝐬𝐬𝐞𝐠𝐞 𝐬𝐞𝐞𝐧
-	𝙈𝙀𝘿𝙄𝘼𝙁𝙄𝙍𝙀
+	const result4 = `┌───═[ *𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃* ]═──▸
+⋱ ⋮ ⋰
+⋯ ◯ ⋯ ︵ 　　　　　　^v^
+¸︵︵( ░░ )︵.︵.︵
+(´░░░░░░ ') ░░░' )
+` ︶ ¯`︶´`︶´︶´`　^v^　　^v^
+╔┓┏╦━━╦┓╔┓╔━━╗╔╗
+║┗┛║┗━╣┃║┃║╯╰║║║
+║┏┓║┏━╣┗╣┗╣╰╯║╠╣
+╚┛┗╩━━╩━╩━╩━━╝╚╝
+♪♫•*¨*•.¸¸❤¸¸.•*¨*•♫♪
+
+│╭────────────···▸
+┴│▸
+⬡│▸ owner 1 :- Didula
+⬡│▸ Owner 2 :- Janith
+⬡│▸ Plugins:- 392
+⬡│▸ Uptime:- ${runtime(process.uptime())}
+⬡│▸ Mem:- 31.42 GB/61.79 GB
+⬡│▸ Time:- 8:02:41 pm
+⬡│▸ Date:- 20/03/2024
+┬│▸ *+94741671668*
+│╰─────────────···▸
+└───────────────···▸
+└───〈 *𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃* 〉───◆
 *❖ Name* : ${baby1[0].nama}
 *❖ Size* : ${baby1[0].size}
 *❖ Mime* : ${baby1[0].mime}
-*❖ Link* : ${baby1[0].link}`
+*❖ Link* : ${baby1[0].link}
+✓▷🙋‍♂️▷─────────────···▸
+`
 reply(`${result4}`)
 Maria.sendMessage(m.chat, { document : { url : baby1[0].link}, fileName : baby1[0].nama, mimetype: baby1[0].mime }, { quoted : m })
 }
@@ -2310,27 +2445,40 @@ https://chat.whatsapp.com/${response}
   case 'mods':
 case 'developer':
 case 'dev':
-    const devmod = `╔══❮𝐃𝐢𝐝𝐮𝐥𝐚-𝐌𝐃❯══╕
-║ ∧＿∧               ║▷
-║(  ･ω･∥  ☆      ║▷
-║丶　つ０        ║▷
-║しーＪ             ║▷
-║𝐡𝐞𝐲 ${pushname} 🪄
-║🙋‍♂️◌╺𝐃𝐢𝐝𝐮𝐥𝐚 
-║🏯◌╺𝐒𝐫𝐢 𝐋𝐚𝐧𝐤𝐚
-║🥏◌╺  ${runtime(process.uptime())}
-║✓ 𝐁𝐄𝐒𝐓 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐁𝐎𝐓
-║✓ 24/7 𝐨𝐧𝐥𝐢𝐧𝐞
-║✓ 𝐀𝐮𝐭𝐨 𝐬𝐭𝐚𝐭𝐮𝐬 𝐦𝐚𝐬𝐬𝐞𝐠𝐞 𝐬𝐞𝐞𝐧
-║
-┗━━━━━━💖❯❯❯❯`;
+    const devmod = `┌───═[ *𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃* ]═──▸
+⋱ ⋮ ⋰
+⋯ ◯ ⋯ ︵ 　　　　　　^v^
+¸︵︵( ░░ )︵.︵.︵
+(´░░░░░░ ') ░░░' )
+` ︶ ¯`︶´`︶´︶´`　^v^　　^v^
+╔┓┏╦━━╦┓╔┓╔━━╗╔╗
+║┗┛║┗━╣┃║┃║╯╰║║║
+║┏┓║┏━╣┗╣┗╣╰╯║╠╣
+╚┛┗╩━━╩━╩━╩━━╝╚╝
+♪♫•*¨*•.¸¸❤¸¸.•*¨*•♫♪
+
+│╭────────────···▸
+┴│▸
+⬡│▸ owner 1 :- Didula
+⬡│▸ Owner 2 :- Janith
+⬡│▸ Plugins:- 392
+⬡│▸ Uptime:- ${runtime(process.uptime())}
+⬡│▸ Mem:- 31.42 GB/61.79 GB
+⬡│▸ Time:- 8:02:41 pm
+⬡│▸ Date:- 20/03/2024
+┬│▸ *+94741671668*
+│╰─────────────···▸
+└───────────────···▸
+└───〈 *𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃* 〉───◆
+✓▷🙋‍♂️▷─────────────···▸
+`;
 
     Maria.sendMessage(m.chat, { text: devmod, mentions: ["94741671668@s.whatsapp.net", "94741671668@s.whatsapp.net", "94741671668@s.whatsapp.net","94741671668@s.whatsapp.net"] }, { quoted: m });
     break;
 
     case 'list': case 'listmenu': {  
     const listmenu = require("./Gallery/lib/list.js");
-    Maria.sendMessage(m.chat, { video: { url: 'https://picfiles.alphacoders.com/623/623720.jpeg ' }, caption: listmenu }, { quoted: m });
+    Maria.sendMessage(m.chat, { video: { url: 'https://a.uguu.se/bxaScBCM.jpg' }, caption: listmenu }, { quoted: m });
 }
 break;
 
@@ -2338,7 +2486,7 @@ case 'help1': case 'h1':{
       
 const h3menu = require("./Gallery/lib/download.js")
 
-Maria.sendMessage(m.chat, { image: { url: `https://picfiles.alphacoders.com/623/623720.jpeg` }, caption: h3menu, gifPlayback: true }, { quoted: m });
+Maria.sendMessage(m.chat, { image: { url: `https://a.uguu.se/bxaScBCM.jpg` }, caption: h3menu, gifPlayback: true }, { quoted: m });
         }
         break
   
@@ -2346,7 +2494,7 @@ case 'help2': case 'h2':{
       
 const h3menu = require("./Gallery/lib/general.js")
 
-Maria.sendMessage(m.chat, { image: { url: `https://picfiles.alphacoders.com/623/623720.jpeg` }, caption: h3menu, gifPlayback: true }, { quoted: m });
+Maria.sendMessage(m.chat, { image: { url: `https://a.uguu.se/bxaScBCM.jpg` }, caption: h3menu, gifPlayback: true }, { quoted: m });
         }
         break
   
@@ -2355,7 +2503,7 @@ Maria.sendMessage(m.chat, { image: { url: `https://picfiles.alphacoders.com/623/
       
 const h3menu = require("./Gallery/lib/owner.js")
 
-Maria.sendMessage(m.chat, { image: { url: `https://picfiles.alphacoders.com/623/623720.jpeg` }, caption: h3menu, gifPlayback: true }, { quoted: m });
+Maria.sendMessage(m.chat, { image: { url: `https://a.uguu.se/bxaScBCM.jpg` }, caption: h3menu, gifPlayback: true }, { quoted: m });
         }
         break
   
@@ -2366,7 +2514,7 @@ Maria.sendMessage(m.chat, { image: { url: `https://picfiles.alphacoders.com/623/
                
 const h4menu = require("./Gallery/lib/search.js")
 
-Maria.sendMessage(m.chat, { image: { url: `https://picfiles.alphacoders.com/623/623720.jpeg` }, caption: h4menu, gifPlayback: true }, { quoted: m });
+Maria.sendMessage(m.chat, { image: { url: `https://a.uguu.se/bxaScBCM.jpg` }, caption: h4menu, gifPlayback: true }, { quoted: m });
         }
         break
   
@@ -2376,7 +2524,7 @@ Maria.sendMessage(m.chat, { image: { url: `https://picfiles.alphacoders.com/623/
          
 const h5menu = require("./Gallery/lib/group.js")
 
-Maria.sendMessage(m.chat, { image: { url: `https://picfiles.alphacoders.com/623/623720.jpeg` }, caption: h5menu, gifPlayback: true }, { quoted: m });
+Maria.sendMessage(m.chat, { image: { url: `https://a.uguu.se/bxaScBCM.jpg` }, caption: h5menu, gifPlayback: true }, { quoted: m });
         }
         break
   
@@ -2385,7 +2533,7 @@ Maria.sendMessage(m.chat, { image: { url: `https://picfiles.alphacoders.com/623/
                
 const h6menu = require("./Gallery/lib/fun.js")
 
-Maria.sendMessage(m.chat, { image: { url: `https://picfiles.alphacoders.com/623/623720.jpeg` }, caption: h6menu, gifPlayback: true }, { quoted: m });
+Maria.sendMessage(m.chat, { image: { url: `https://a.uguu.se/bxaScBCM.jpg` }, caption: h6menu, gifPlayback: true }, { quoted: m });
         }
         break
   
@@ -2394,7 +2542,7 @@ Maria.sendMessage(m.chat, { image: { url: `https://picfiles.alphacoders.com/623/
                
 const h7menu = require("./Gallery/lib/weeb.js")
 
-Maria.sendMessage(m.chat, { image: { url: `https://picfiles.alphacoders.com/623/623720.jpeg` }, caption: h7menu, gifPlayback: true }, { quoted: m });
+Maria.sendMessage(m.chat, { image: { url: `https://a.uguu.se/bxaScBCM.jpg` }, caption: h7menu, gifPlayback: true }, { quoted: m });
         }
         break
   
@@ -2403,7 +2551,7 @@ Maria.sendMessage(m.chat, { image: { url: `https://picfiles.alphacoders.com/623/
                
 const h8menu = require("./Gallery/lib/Nsfw.js")
 
-Maria.sendMessage(m.chat, { image: { url: `https://picfiles.alphacoders.com/623/623720.jpeg` }, caption: h8menu, gifPlayback: true }, { quoted: m });
+Maria.sendMessage(m.chat, { image: { url: `https://a.uguu.se/bxaScBCM.jpg` }, caption: h8menu, gifPlayback: true }, { quoted: m });
         }
         break
   
@@ -2412,7 +2560,7 @@ Maria.sendMessage(m.chat, { image: { url: `https://picfiles.alphacoders.com/623/
                
 const h9menu = require("./Gallery/lib/SnapBlend.js")
 
-Maria.sendMessage(m.chat, { image: { url: `https://picfiles.alphacoders.com/623/623720.jpeg` }, caption: h9menu, gifPlayback: true }, { quoted: m });
+Maria.sendMessage(m.chat, { image: { url: `https://a.uguu.se/bxaScBCM.jpg` }, caption: h9menu, gifPlayback: true }, { quoted: m });
         }
         break
   
@@ -2421,7 +2569,7 @@ Maria.sendMessage(m.chat, { image: { url: `https://picfiles.alphacoders.com/623/
                
 const h10menu = require("./Gallery/lib/other.js")
 
-Maria.sendMessage(m.chat, { image: { url: `https://picfiles.alphacoders.com/623/623720.jpeg` }, caption: h10menu, gifPlayback: true }, { quoted: m });
+Maria.sendMessage(m.chat, { image: { url: `https://a.uguu.se/bxaScBCM.jpg` }, caption: h10menu, gifPlayback: true }, { quoted: m });
         }
         break
     
