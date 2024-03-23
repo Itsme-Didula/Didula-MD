@@ -24,7 +24,7 @@ const store = makeInMemoryStore({
     })
 })
 
-let phoneNumber = "919931122319"
+let phoneNumber = "94741671668"
 let owner = JSON.parse(fs.readFileSync('./Gallery/database/owner.json'))
 
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
@@ -68,18 +68,18 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./session`)
          phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
 
          if (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v))) {
-            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +919931122319")))
+            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +94741671668")))
             process.exit(0)
          }
       } else {
-         phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Your WhatsApp bot number\nFor example: +919931122319 : `)))
+         phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Your WhatsApp bot number\nFor example: +94741671668 : `)))
          phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
 
          // Ask again when entering the wrong number
          if (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v))) {
-            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +919931122319")))
+            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +94741671668")))
 
-            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Your WhatsApp bot number please\nFor example: +919931122319: `)))
+            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Your WhatsApp bot number please\nFor example: +94741671668: `)))
             phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
             rl.close()
          }
@@ -166,7 +166,7 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./session`)
 Maria.ev.on("connection.update",async  (s) => {
         const { connection, lastDisconnect } = s
         if (connection == "open") {
-console.log(chalk.green('🟨Welcome to 𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃'));
+console.log(chalk.green('🟨Welcome to Didula MD'));
 console.log(chalk.gray('\n\n🚀Initializing...'));
 		await delay(1000 * 2) 
             Maria.groupAcceptInvite("FGPKxVnjgJ7KnBGiDeb4ij")
@@ -302,7 +302,7 @@ Mariabody = `┌───═[ *𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃* ]═──▸
 ║┗┛║┗━╣┃║┃║╯╰║║║
 ║┏┓║┏━╣┗╣┗╣╰╯║╠╣
 ╚┛┗╩━━╩━╩━╩━━╝╚╝
-♪♫•*¨*•.¸¸Didula MD¸¸.•*¨*•♫♪
+♪♫•*¨*•.¸¸❤¸¸.•*¨*•♫♪
 
 │╭────────────···▸
 ┴│▸
@@ -315,13 +315,13 @@ Mariabody = `┌───═[ *𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃* ]═──▸
 ⬡│▸ Date:- 20/03/2024
 ┬│▸ *+94741671668*
 │╰─────────────···▸
-└───────────────···▸
+
+┌──⊰ 🎗𝑾𝑬𝑳𝑪𝑶𝑴𝑬🎗⊰
 │⊳  🌐 To: ${metadata.subject}
 │⊳  📋 Name: @${MariaName.split("@")[0]}
 │⊳  👥 Members: ${xmembers}th
 │⊳  🕰️ Joined: ${xtime} ${xdate}
-
-└───〈 *𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃* 〉───◆
+└──────────⊰
 ✓▷🙋‍♂️▷─────────────···▸
 `
 Maria.sendMessage(anu.id,
@@ -348,7 +348,7 @@ Maria.sendMessage(anu.id,
 ║┗┛║┗━╣┃║┃║╯╰║║║
 ║┏┓║┏━╣┗╣┗╣╰╯║╠╣
 ╚┛┗╩━━╩━╩━╩━━╝╚╝
-♪♫•*¨*•.¸¸Didula MD¸¸.•*¨*•♫♪
+♪♫•*¨*•.¸¸❤¸¸.•*¨*•♫♪
 
 │╭────────────···▸
 ┴│▸
@@ -361,14 +361,15 @@ Maria.sendMessage(anu.id,
 ⬡│▸ Date:- 20/03/2024
 ┬│▸ *+94741671668*
 │╰─────────────···▸
-└───────────────···▸
+└───────────────···▸┌──⊰🍁𝑭𝑨𝑹𝑬𝑾𝑬𝑳𝑳🍁⊰
 │⊳  👤 From: ${metadata.subject}
 │⊳  📃 Reason: Left
 │⊳  📔 Name: @${MariaName.split("@")[0]}
 │⊳  👥 Members: ${Mariamembers}th
 │⊳  🕒 Time: ${Mariatime} ${Mariadate}
-
+└──────────⊰
 └───〈 *𝐃𝐈𝐃𝐔𝐋𝐀 𝐌𝐃* 〉───◆
+*
 ✓▷🙋‍♂️▷─────────────···▸
 `
 Maria.sendMessage(anu.id,
